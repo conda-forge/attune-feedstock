@@ -1,6 +1,6 @@
 {% set name = "attune" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "071e2ff296681cab3194da35646bff7b864ab981e5b650ea3d5be5379615869f" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "0a0b6d8d0d9f6c0634ab0da96cd26163f1efc5bf38dddaa42694d0779a8b34d0" %}
 
 package:
   name: {{ name|lower }}

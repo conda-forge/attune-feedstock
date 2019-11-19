@@ -1,6 +1,6 @@
 {% set name = "attune" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "0a0b6d8d0d9f6c0634ab0da96cd26163f1efc5bf38dddaa42694d0779a8b34d0" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "aa6bb723e0e65306699570030a26049e94e35bb1c5dadc8b68927fbe3176d0cf" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
     - pytest-runner
   run:
     - python >=3.5
-    - WrightTools >=3.2.2
+    - WrightTools >=3.2.5
     - numpy
     - scipy
     - matplotlib

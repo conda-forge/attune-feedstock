@@ -5,7 +5,7 @@ Home: https://github.com/wright-group/attune
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Tools for tuning optical parametric amplifiers and multidimensional spectrometers.
 

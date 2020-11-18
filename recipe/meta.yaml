@@ -1,6 +1,6 @@
 {% set name = "attune" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "f90cc2411e9166a73671974b5d26f34c882e4d0465c61110b105cfe3a916f3a5" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "bf76084f702d8b2b32f008a603a22301e73d54cc0ea52ae4e4fdd9a73a0df2f9" %}
 
 package:
   name: {{ name|lower }}
@@ -12,11 +12,11 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - setuptools

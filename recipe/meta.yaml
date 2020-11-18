@@ -27,7 +27,8 @@ requirements:
     - numpy
     - scipy
     - matplotlib-base
-    - tidy_headers
+    - appdirs
+    - maya
 
 test:
   imports:

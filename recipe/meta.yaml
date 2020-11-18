@@ -29,6 +29,7 @@ requirements:
     - matplotlib-base
     - appdirs
     - maya
+    - python-dateutil
 
 test:
   imports:

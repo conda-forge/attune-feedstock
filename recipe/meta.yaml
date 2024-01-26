@@ -11,30 +11,37 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  entry_points:
+    - attune = attune._cli:main
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
     - pytest-runner
   run:
-    - python >=3.6
+    - python >=3.7
     - WrightTools >=3.2.5
     - numpy
     - scipy
     - matplotlib-base
     - appdirs
     - dateparser
-    - click
     - python-dateutil
+    - click
 
 test:
   imports:
     - attune
+  commands:
+    - pip check
+    - attune --help
+  requires:
+    - pip  
 
 about:
   home: https://github.com/wright-group/attune

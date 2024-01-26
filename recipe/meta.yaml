@@ -28,7 +28,8 @@ requirements:
     - scipy
     - matplotlib-base
     - appdirs
-    - maya
+    - dateparser
+    - click
     - python-dateutil
 
 test:

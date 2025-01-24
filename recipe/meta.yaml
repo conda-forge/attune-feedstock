@@ -14,7 +14,7 @@ build:
   entry_points:
     - attune = attune._cli:main
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -43,6 +43,7 @@ test:
   requires:
     - python {{ python_min }}
     - pip  
+    - python {{ python_min }}
 
 about:
   home: https://github.com/wright-group/attune
